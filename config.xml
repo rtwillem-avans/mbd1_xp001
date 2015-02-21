@@ -61,5 +61,16 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
+  <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="www/res/screen/android/screen-hdpi-landscapeRW.png" density="land-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-landscapeRW.png" density="land-ldpi"/>
+    <splash src="www/res/screen/android/screen-mdpi-landscapeRW.png" density="land-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-landscapeRW.png" density="land-xhdpi"/>
+    <splash src="www/res/screen/android/screen-hdpi-portraitRW.png" density="port-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-portraitRW.png" density="port-ldpi"/>
+    <splash src="www/res/screen/android/screen-mdpi-portraitRW.png" density="port-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-portraitRW.png" density="port-xhdpi"/>
+</platform>
   <access origin="*"/>
 </widget>
